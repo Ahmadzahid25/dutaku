@@ -11,6 +11,11 @@ body {
   font-family: sans-serif;
 }
 
+/* saya ubahhhhhh */
+body {
+  scrollbar-width: none;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -425,6 +430,7 @@ footer > div > a:hover {
     justify-content: center;
   }
 
+  
   .second-animation {
     margin-top: 7rem;
   }
