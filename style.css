@@ -522,9 +522,9 @@ footer > div > a:hover {
 }
 
 @media only screen and (max-width: 840px) {
-  body {
+  /* body {
     overflow: hidden;
-  }
+  } */
 
   a {
     color: #000;
