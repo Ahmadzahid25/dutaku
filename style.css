@@ -12,9 +12,9 @@ body {
 }
 
 /* saya ubahhhhhh */
-body {
+/* body {
   scrollbar-width: none;
-}
+} */
 
 .navbar {
   display: flex;
@@ -161,7 +161,8 @@ select {
 
 .slides-container {
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
+  height: auto;
   flex: 1;
 }
 
@@ -509,7 +510,8 @@ footer > div > a:hover {
 
 @media only screen and (max-width: 840px) {
   body {
-    overflow: hidden;
+    /* overflow: hidden; */
+    height: auto;
   }
 
   main {   
