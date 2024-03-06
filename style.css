@@ -11,6 +11,11 @@ body {
   font-family: sans-serif;
 }
 
+/* saya ubahhhhhh */
+/* body {
+  scrollbar-width: none;
+} */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -18,6 +23,23 @@ body {
   background-color: #eee;
   height: 5rem;
 }
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar img {
+  width: 50px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.logo {
+  margin-left: 10px; /* Adjust margin as needed */
+  font-size: 25px; /* Adjust font size as needed */
+  font-weight: bold; /* Set font weight to bold */
+}
+
 
 .left {
   display: flex;
@@ -28,19 +50,19 @@ body {
   display: flex;
   align-items: center;
   border-radius: 50%;
-  margin-left: 3rem;
-  border: 2px solid #3a3e41;
+  margin-left: 0rem;
+  border: 0px solid #3a3e41;
 }
 
 .left > div > svg {
-  margin: 0.4rem;
-  width: 24px;
-  height: 24px;
+  margin: 0rem;
+  width: 0px;
+  height: 0px;
 }
 
 .left > img {
-  width: 35px;
-  height: 35px;
+  width: 50px;
+  height: 50px;
   margin-left: 1rem;
 }
 
@@ -417,26 +439,6 @@ footer > div > a:hover {
   display: none;
 }
 
-
-
-/* width */
-::-webkit-scrollbar {
-  width: 20px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
-  border-radius: 10px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: red;
-  border-radius: 10px;
-}
-
-
 @media (min-width: 1367px) {
   .second,
   .third,
@@ -446,6 +448,7 @@ footer > div > a:hover {
     justify-content: center;
   }
 
+  
   .second-animation {
     margin-top: 7rem;
   }
@@ -528,6 +531,11 @@ footer > div > a:hover {
     height: auto;
   }
 
+  main {   
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
   a {
     color: #000;
     font-size: 0.7rem;
@@ -542,7 +550,7 @@ footer > div > a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fffc00;
+    background-color: #eee;
     height: 4rem;
   }
 
@@ -552,7 +560,7 @@ footer > div > a:hover {
   }
 
   .mini-navbar > a {
-    background-color: #fffc00;
+    background-color: #eee;
   }
 
   .mini-navbar > a:hover {
@@ -696,8 +704,8 @@ footer > div > a:hover {
   .info-btn > button,
   .second-info-form > button,
   .fourth-info-form > button {
-    background-color: #fffc00;
-    color: #000;
+    background-color: #000;
+    color: #eee;
     height: 3rem;
     width: 12rem;
     margin-top: 150%;
